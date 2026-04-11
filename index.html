@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aadrik Fashion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--Nav bar-->
+    <section class="head-section">
+      <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light penguin-nabbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="Images/logo.png"
+                alt=""
+                class="penguin-logo img-fluid"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-us">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-us">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+    <main>
+      <!--Banner section-->
+      <section class="head-section">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 px-3">
+              <h1 id="text-style">Style That Speaks</h1>
+              <h1 class="text-style2">Elegance</h1>
+              <p>
+                Explore our exclusive collection of designer kurtis and ethnic sets, thoughtfully crafted for the modern woman. From elegant daily wear to chic office styles and stunning outfits for special occasions, find fashion that blends comfort with timeless style.
+
+                Discover a wide range of colors, patterns, and silhouettes designed to suit every mood and moment. Each piece is made with attention to detail, ensuring quality, comfort, and a perfect fit.
+
+                Upgrade your wardrobe with styles that reflect your personality and confidence. Step into fashion that makes you feel beautiful, every single day.
+              </p>
+            </div>
+            <div class="col-md-6 how-img px-5">
+              <img src="Images/bannar-profile.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="container mt-5">
+        <h1>Our Products</h1>
+        <!-- Category Filters -->
+  <div class="text-center mb-4">
+    <button class="btn m-1 filter-btn active" onclick="filterProducts('all', this)">All</button>
+    <button class="btn m-1 filter-btn" onclick="filterProducts('kurti', this)">Kurti</button>
+    <button class="btn m-1 filter-btn" onclick="filterProducts('2pc', this)">2 Pc Set</button>
+    <button class="btn m-1 filter-btn" onclick="filterProducts('new', this)">New</button>
+  </div>
+
+  <!-- Product Grid -->
+   <div class="row row-cols-1 row-cols-md-3 g-4 mt-3" id="productContainer">
+
+   </div>
+      </section>
+
+      <div class="modal fade" id="productModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <!-- Main Image -->
+        <div class="text-center position-relative">
+
+          <button class="nav-arrow left-arrow" onclick="changeImageBy(-1)">❮</button>
+
+          <img id="mainImage" src="" class="img-fluid" style="height:400px; object-fit:contain;">
+
+          <button class="nav-arrow right-arrow" onclick="changeImageBy(1)">❯</button>
+
+        </div>
+
+        <!-- Thumbnails -->
+        
+        <div class="d-flex align-items-center mt-2">
+          <button class="btn btn-light thumb-arrow" onclick="scrollThumbs(-100)">‹</button>
+          
+          <div id="thumbnailContainer" class="thumbnail-scroll flex-grow-1"></div>
+          
+          <button class="btn btn-light thumb-arrow" onclick="scrollThumbs(100)">›</button>
+        </div>
+        <!-- Description -->
+        <p class="mt-3 text-center" id="modalDescription"></p>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+      <!--Some information section-->
+      <section class="container mt-5 pt-5">
+        <div class="pt-2 pb-5 container">
+          <div
+            class="row d-flex align-items-center flex-column-reverse flex-lg-row"
+          >
+            <div class="col-md-6 px-3">
+              <div
+                class="card mb-3 penguin-card-border shadow"
+                style="max-width: 540px;"
+              >
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <img
+                      src="icon/image 12.png"
+                      class="w-50 penguin-info"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Find the Perfect Choice</h5>
+                      <p class="card-text">
+                        Everybody is different, which is why we offer styles for
+                        every body.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card mb-3 penguin-card-border shadow"
+                style="max-width: 540px;"
+              >
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <img
+                      src="icon/image 13.png"
+                      class="w-50 penguin-info"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Not like it - Return</h5>
+                      <p class="card-text">
+                        One of the many reasons you can shop with peace of mind.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card mb-3 penguin-card-border shadow"
+                style="max-width: 540px;"
+              >
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <img
+                      src="icon/image 14.png"
+                      class="w-50 penguin-info"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Contact Us</h5>
+                      <p class="card-text">
+                        We are here to help you. That's quite literally what
+                        you are paying to get products and services.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 how-img px-5">
+              <img src="icon/XMLID 1.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer section-->
+    <section class="footer-section">
+      <div class="container pb-5">
+        <div class="row">
+          <div id="about-us" class="col-sm pe-5 pt-3">
+            <img src="Images/logo.png" alt="" class="penguin-logo img-fluid" />
+            <hr />
+            <p>
+              At Aadrik Fashion, we believe style is more than clothing—it’s confidence.
+              When you dress with intention, you don’t just change your look—you transform how you feel. Confidence rises. Energy shifts. Presence speaks.
+              Because when you look powerful, you feel unstoppable.
+              
+              Aadrik Fashion — Wear Your Confidence.
+            </p>
+          </div>
+          <div id="contact-us" class="col-sm pe-5 pt-3">
+            <h5>Contact us:</h5>
+            <hr />
+            <p>
+              <i class="fa fa-map-marker fa-1x"> </i>
+              E 8/16 Samilani Park, Santoshpur, Kolkata, West Bengal - 700075
+            </p>
+            <p>
+              <i class="fa fa-envelope-open"></i>
+              aadrik.fashion@gmail.com
+            </p>
+            <p><i class="fa fa-phone"></i> +911234567891</p>
+          </div>
+          <div class="col-sm pe-5 pt-3">
+            <div>
+              <h5>Get in Touch</h5>
+              <hr />
+              <i class="fa fa-facebook-square fa-2x pe-3"> </i>
+              <i class="fa fa-twitter-square fa-2x pe-3"></i>
+              <i class="fa fa-linkedin fa-2x pe-3"></i>
+            </div>
+            <div class="pt-5">
+              <h5>Pay with</h5>
+              <hr />
+              <img src="icon/pay.png" class="w-75" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <p class="text-center">
+          © Aadrik Fashion 2026, all rights reserved by Kasturi Das
+        </p>
+      </footer>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>
