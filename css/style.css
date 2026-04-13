@@ -31,10 +31,13 @@ h1 {
   margin: 4% auto;
 }
 .penguin-info {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
+  width: 60px;
+  height: auto;
+}
+
+.penguin-card-border {
+  border-radius: 12px;
+  border: none;
 }
 .penguin-card-border,
 .penguin-card-img {
