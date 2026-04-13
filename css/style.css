@@ -204,3 +204,23 @@ h1 {
   outline: none;
   box-shadow: none;
 }
+
+
+.no-product-box {
+  max-width: 350px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.no-product-box img {
+  opacity: 0.9;
+}
+
+.no-product-box h4 {
+  font-weight: 600;
+}
+
+.no-product-box button {
+  border-radius: 20px;
+}

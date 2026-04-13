@@ -71,6 +71,31 @@ function displayProducts(filteredProducts) {
 
   container.innerHTML = "";
 
+  if (filteredProducts.length === 0) {
+    container.innerHTML = `
+      <div class="col-12 text-center py-2">
+        
+        <div class="no-product-box shadow-sm p-4 mx-auto">
+          
+          <img src="icon/no-data.png" style="width:180px;" alt="No Data">
+
+          <h4 class="mb-2">No matching styles found</h4>
+          
+          <p class="text-muted mb-3">
+            Try different sizes or types of dresses.
+          </p>
+
+          <button class="btn btn-outline-dark btn-sm" onclick="resetFilters()">
+            Reset Filters
+          </button>
+
+        </div>
+
+      </div>
+    `;
+    return;
+  }
+
   filteredProducts.forEach(product => {
     
     const sizes = product.size.split(",");
@@ -137,12 +162,7 @@ function filterProducts(category, btn) {
   document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
   if (btn) btn.classList.add("active");
 
-  if (category === "all") {
-    displayProducts(products);
-  } else {
-    const filtered = products.filter(p => p.category === category);
-    displayProducts(filtered);
-  }
+  applyFilters();
 }
 
 // Edit product
@@ -275,3 +295,35 @@ mainImg.addEventListener("touchend", e => {
     changeImageBy(-1); // swipe right
   }
 });
+
+function applyFilters() {
+  // get selected sizes
+  const checkedSizes = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
+    .map(cb => cb.value);
+
+  let filtered = products;
+
+  // filter by category
+  if (currentCategory !== "all") {
+    filtered = filtered.filter(p => p.category === currentCategory);
+  }
+
+  // filter by sizes
+  if (checkedSizes.length > 0) {
+    filtered = filtered.filter(product => {
+      const productSizes = product.size.split(",").map(s => s.trim());
+      return checkedSizes.some(size => productSizes.includes(size));
+    });
+  }
+
+  displayProducts(filtered);
+}
+
+function resetFilters() {
+  document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+  currentCategory = "all";
+  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+  document.querySelector(".filter-btn").classList.add("active");
+
+  displayProducts(products);
+}

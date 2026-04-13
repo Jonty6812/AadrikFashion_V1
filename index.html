@@ -121,6 +121,35 @@
     <button class="btn m-1 filter-btn" onclick="filterProducts('2pc', this)">2 Pc Set</button>
     <button class="btn m-1 filter-btn" onclick="filterProducts('new', this)">New</button>
   </div>
+  <div class="text-center mb-4">
+
+    <span class="me-2 fw-bold">Filter by Size:</span>
+
+    <label class="me-2">
+      <input type="checkbox" value="XS" onchange="applyFilters()"> XS
+    </label>
+
+    <label class="me-2">
+      <input type="checkbox" value="S" onchange="applyFilters()"> S
+    </label>
+
+    <label class="me-2">
+      <input type="checkbox" value="M" onchange="applyFilters()"> M
+    </label>
+
+    <label class="me-2">
+      <input type="checkbox" value="L" onchange="applyFilters()"> L
+    </label>
+
+    <label class="me-2">
+      <input type="checkbox" value="XL" onchange="applyFilters()"> XL
+    </label>
+
+    <label class="me-2">
+      <input type="checkbox" value="XXL" onchange="applyFilters()"> XXL
+    </label>
+
+  </div>
 
   <!-- Product Grid -->
    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3" id="productContainer">
