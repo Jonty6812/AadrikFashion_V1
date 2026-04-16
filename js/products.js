@@ -12,7 +12,7 @@ let products = [
     category: "kurti",
     price: 589,
     oldPrice: 999,
-    image: "Images/kurti/1FRANG Navy Blue Floral Panel Kurti",
+    image: "Images/kurti/1FRANG Navy Blue Floral Panel Kurti.png",
     images: [
     "Images/kurti/1FRANG Navy Blue Floral Panel Kurti.png",
     "Images/kurti/1ZRANG Navy Blue Floral Panel Kurti.png"
