@@ -10,12 +10,59 @@ let products = [
     sizetag: "38",
     company: "RANGRITI",
     category: "kurti",
-    price: 589,
+    price: 499,
     oldPrice: 999,
     image: "Images/kurti/1FRANG Navy Blue Floral Panel Kurti.png",
     images: [
     "Images/kurti/1FRANG Navy Blue Floral Panel Kurti.png",
     "Images/kurti/1ZRANG Navy Blue Floral Panel Kurti.png"
+  ]
+  },
+  {
+    id: 2,
+    name: "Ivory Abstract Brushstroke Kurti",
+    description: "Trendy ivory kurti featuring a bold abstract brushstroke print in shades of blue, green, and earthy brown. Designed with a mandarin collar and buttoned placket, this piece offers a modern artistic look with all-day comfort—perfect for casual outings and smart everyday wear.",
+    size: "L",
+    sizetag: "L",
+    company: "ROYSA",
+    category: "kurti",
+    price: 549,
+    oldPrice: 2499,
+    image: "Images/kurti/2FROYSA Ivory Abstract Brushstroke Kurti.png",
+    images: [
+    "Images/kurti/2FROYSA Ivory Abstract Brushstroke Kurti.png"
+  ]
+  },
+  {
+    id: 3,
+    name: "Ivory Heritage Print Panel Kurti",
+    description: "Elegant ivory kurti featuring a beautifully detailed central panel with traditional-inspired motifs and fine geometric patterns. Accented with contrast black borders and subtle red highlights, this design blends ethnic charm with modern simplicity—perfect for everyday elegance and office wear.",
+    size: "M",
+    sizetag: "36",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 589,
+    oldPrice: 1299,
+    image: "Images/kurti/3FRANG Ivory Heritage Print Panel Kurti.png",
+    images: [
+    "Images/kurti/3FRANG Ivory Heritage Print Panel Kurti.png",
+    "Images/kurti/3ZRANG Ivory Heritage Print Panel Kurti.png"
+  ]
+  },
+  {
+    id: 4,
+    name: "Olive Garden Floral Kurti",
+    description: "Elegant olive green kurti featuring an all-over floral print in soft pink and red tones. Accented with contrast printed sleeve borders and a stylish notch neckline, this piece offers a perfect blend of comfort and everyday elegance—ideal for casual wear and office styling.",
+    size: "M",
+    sizetag: "36",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 439,
+    oldPrice: 1099,
+    image: "Images/kurti/4FRANG Olive Garden Floral Kurti.png",
+    images: [
+    "Images/kurti/4FRANG Olive Garden Floral Kurti.png",
+    "Images/kurti/4ZRANG Olive Garden Floral Kurti.png.png"
   ]
   },
   {
