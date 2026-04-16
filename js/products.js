@@ -62,7 +62,39 @@ let products = [
     image: "Images/kurti/4FRANG Olive Garden Floral Kurti.png",
     images: [
     "Images/kurti/4FRANG Olive Garden Floral Kurti.png",
-    "Images/kurti/4ZRANG Olive Garden Floral Kurti.png.png"
+    "Images/kurti/4ZRANG Olive Garden Floral Kurti.png"
+  ]
+  },
+  {
+    id: 5,
+    name: "Royal Blue Buti Printed Kurti",
+    description: "Elegant royal blue kurti featuring delicate vertical buti prints in soft pink and white tones. Designed with a round neckline and subtle front placket, this piece offers a refined and graceful look—perfect for office wear, daily styling, and effortless comfort.",
+    size: "XL",
+    sizetag: "14",
+    company: "W",
+    category: "kurti",
+    price: 599,
+    oldPrice: 4599,
+    image: "Images/kurti/5FW Royal Blue Buti Printed Kurti.png",
+    images: [
+    "Images/kurti/5FW Royal Blue Buti Printed Kurti.png",
+    "Images/kurti/5ZW Royal Blue Buti Printed Kurti.png"
+  ]
+  },
+  {
+    id: 6,
+    name: "Sunset Ombre Chevron Kurti",
+    description: "Vibrant yellow to orange ombre kurti featuring elegant chevron patterns with subtle dotted detailing. Designed with a stylish notch neckline and contrast red accents on the placket and sleeves, this piece adds a bright, festive touch while ensuring all-day comfort—perfect for casual outings and daytime occasions.",
+    size: "M",
+    sizetag: "36",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 599,
+    oldPrice: 1799,
+    image: "Images/kurti/6FRANG Sunset Ombre Chevron Kurti.png",
+    images: [
+    "Images/kurti/6FRANG Sunset Ombre Chevron Kurti.png",
+    "Images/kurti/6WRANG Sunset Ombre Chevron Kurti.png"
   ]
   },
   {
