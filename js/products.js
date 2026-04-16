@@ -4,20 +4,18 @@ let currentIndex = 0;
 let products = [
   {
     id: 1,
-    name: "Floral Kurti",
-    description: "1Stylish yellow coat for young and beautiful ladies.",
-    size: "S",
+    name: "Navy Blue Floral Panel Kurti",
+    description: "Chic navy blue kurti enhanced with a bold side floral design and fine textured pattern. Crafted for a flattering fit with soft, breathable fabric, making it a versatile choice for office wear and daily styling.",
+    size: "M",
+    sizetag: "38",
+    company: "RANGRITI",
     category: "kurti",
-    price: 799,
-    oldPrice: 1000,
-    image: "Images/woman/woman-jak1.png",
+    price: 589,
+    oldPrice: 999,
+    image: "Images/kurti/1FRANG Navy Blue Floral Panel Kurti",
     images: [
-    "Images/woman/woman-jak1.png",
-    "Images/woman/woman-jak2.png",
-    "Images/woman/woman-jak3.png",
-    "Images/woman/woman-jak1.png",
-    "Images/woman/woman-jak2.png",
-    "Images/woman/woman-jak3.png"
+    "Images/kurti/1FRANG Navy Blue Floral Panel Kurti.png",
+    "Images/kurti/1ZRANG Navy Blue Floral Panel Kurti.png"
   ]
   },
   {
