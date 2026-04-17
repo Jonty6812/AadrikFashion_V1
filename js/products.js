@@ -194,6 +194,38 @@ let products = [
   ]
   },
   {
+    id: 13,
+    name: "Midnight Gold Sequin Kurti",
+    description: "A stunning black kurti adorned with intricate gold geometric patterns and shimmering sequin detailing around the neckline and sleeves. Designed for a graceful yet festive look, this piece blends elegance with subtle sparkle—perfect for evening outings, celebrations, or special occasions.",
+    size: "XXXL",
+    sizetag: "18",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/13FW Midnight Gold Sequin Kurti.png",
+    images: [
+    "Images/kurti/13FW Midnight Gold Sequin Kurti.png",
+    "Images/kurti/13ZW Midnight Gold Sequin Kurti.png"
+  ]
+  },
+  {
+    id: 14,
+    name: "Crimson Stripe Everyday Kurti",
+    description: "A vibrant red kurti featuring sleek navy vertical stripes and a stylish chevron-patterned yoke. Designed with a modern notch neckline and contrasting placket, this piece offers a perfect blend of comfort and contemporary style—ideal for daily wear, office looks, or casual outings.",
+    size: "M",
+    sizetag: "M",
+    company: "AURELIA",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/14FAURE Crimson Stripe Everyday Kurti.png",
+    images: [
+    "Images/kurti/14FAURE Crimson Stripe Everyday Kurti.png",
+    "Images/kurti/14ZAURE Crimson Stripe Everyday Kurti.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
