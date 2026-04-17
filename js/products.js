@@ -226,6 +226,22 @@ let products = [
   ]
   },
   {
+    id: 15,
+    name: "Indigo Bloom Button Kurti",
+    description: "A charming blue kurti adorned with delicate white floral prints, designed for effortless everyday elegance. Featuring a mandarin collar with wooden-style buttons and a clean, minimal silhouette, this piece offers comfort and style—perfect for casual outings, office wear, or relaxed day looks.",
+    size: "L",
+    sizetag: "12",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/15FW Indigo Bloom Button Kurti.png",
+    images: [
+    "Images/kurti/15FW Indigo Bloom Button Kurti.png",
+    "Images/kurti/15ZW Indigo Bloom Button Kurti.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
