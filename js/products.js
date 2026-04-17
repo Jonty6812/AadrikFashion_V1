@@ -146,6 +146,54 @@ let products = [
   ]
   },
   {
+    id: 10,
+    name: "Ruby Red Embroidered Kurti",
+    description: "Elegant ruby red kurti featuring delicate white floral embroidery on the front panel with a stylish V-notch neckline. Designed with soft textured fabric and gathered sleeves, this piece offers a graceful and feminine look—perfect for festive wear, casual outings, and everyday elegance.",
+    size: "XXL",
+    sizetag: "XXL",
+    company: "AURELIA",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/10FAURE Ruby Red Embroidered Kurti.png",
+    images: [
+    "Images/kurti/10FAURE Ruby Red Embroidered Kurti.png",
+    "Images/kurti/10ZAURE Ruby Red Embroidered Kurti.png"
+  ]
+  },
+  {
+    id: 11,
+    name: "Coral Pink Embroidered Festive Kurti",
+    description: "Graceful coral pink kurti featuring intricate multicolor embroidery with delicate sequin and zari-style detailing on the neckline. Designed with a soft paisley-inspired base pattern and elegant finish, this kurti adds a rich festive charm—perfect for celebrations, parties, and special occasions.",
+    size: "M",
+    sizetag: "M",
+    company: "AURELIA",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/11FAURE Coral Pink Embroidered Festive Kurti.png",
+    images: [
+    "Images/kurti/11FAURE Coral Pink Embroidered Festive Kurti.png",
+    "Images/kurti/11ZAURE Coral Pink Embroidered Festive Kurti.png"
+  ]
+  },
+  {
+    id: 12,
+    name: "Turquoise Gold Embroidered Straight Kurti",
+    description: "Elegant turquoise kurti featuring intricate gold foil print and embroidery on the front panel and sleeves. Designed with a round neckline and straight silhouette, this piece offers a perfect blend of traditional charm and modern simplicity—ideal for festive wear, office styling, or casual ethnic looks.",
+    size: "0",
+    sizetag: "0",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/12FRANG Turquoise Gold Embroidered Straight Kurti.png",
+    images: [
+    "Images/kurti/12FRANG Turquoise Gold Embroidered Straight Kurti.png",
+    "Images/kurti/12ZRANG Turquoise Gold Embroidered Straight Kurti.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
