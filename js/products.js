@@ -98,6 +98,54 @@ let products = [
   ]
   },
   {
+    id: 7,
+    name: "Indigo Stripe Panel Kurti",
+    description: "Elegant indigo blue kurti featuring subtle vertical stripe textures with a contrast panel design on the front. Styled with a round neckline, button placket, and minimal detailing, this kurti offers a clean and sophisticated look—perfect for office wear, casual outings, and everyday comfort.",
+    size: "L",
+    sizetag: "12",
+    company: "W",
+    category: "kurti",
+    price: 589,
+    oldPrice: 1999,
+    image: "Images/kurti/7FW Indigo Stripe Panel Kurti.png",
+    images: [
+    "Images/kurti/7FW Indigo Stripe Panel Kurti.png",
+    "Images/kurti/7ZW Indigo Stripe Panel Kurti.png"
+  ]
+  },
+  {
+    id: 8,
+    name: "Royal Purple Zari Grid Kurti",
+    description: "Elegant royal purple kurti featuring intricate gold zari-style geometric patterns throughout. Designed with a round neckline and subtle front slit, along with contrast striped sleeve borders, this piece offers a rich ethnic look—perfect for festive occasions, celebrations, and elegant day wear.",
+    size: "M",
+    sizetag: "38",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/8FRANG Royal Purple Zari Grid Kurti.png",
+    images: [
+    "Images/kurti/8FRANG Royal Purple Zari Grid Kurti.png",
+    "Images/kurti/8ZRANG Royal Purple Zari Grid Kurti.png"
+  ]
+  },
+  {
+    id: 9,
+    name: "Royal Blue Embroidered Panel Kurti",
+    description: "Elegant royal blue kurti featuring intricate light embroidery on the front panel with delicate floral and geometric detailing. Designed with a stylish V-notch neckline and printed base pattern, this kurti blends traditional charm with modern comfort—perfect for festive wear, office styling, and everyday elegance.",
+    size: "S",
+    sizetag: "34",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/9FRANG Royal Blue Embroidered Panel Kurti.png",
+    images: [
+    "Images/kurti/9FRANG Royal Blue Embroidered Panel Kurti.png",
+    "Images/kurti/9ZRANG Royal Blue Embroidered Panel Kurti.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
