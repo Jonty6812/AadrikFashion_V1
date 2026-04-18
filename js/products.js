@@ -434,6 +434,53 @@ let products = [
   ]
   },
   {
+    id: 28,
+    name: "Olive Minimal Classic Kurta",
+    description: "A timeless olive kurta designed with a clean, minimal aesthetic and a smart mandarin collar. Featuring subtle texture and wooden button detailing, it offers effortless style and comfort—perfect for everyday wear and understated elegance.",
+    size: "M",
+    sizetag: "M",
+    company: "AURELIA",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/28FAURE Olive Minimal Classic Kurta.png",
+    images: [
+    "Images/kurti/28FAURE Olive Minimal Classic Kurta.png"
+  ]
+  },
+  {
+    id: 29,
+    name: "Royal Blue Ombre Embroidered Kurta",
+    description: "A graceful ombre kurta blending rich royal blue into soft sea green, highlighted with intricate silver thread embroidery on the neckline. Designed with a modern silhouette and lightweight fabric, it offers a perfect balance of elegance and comfort for festive and semi-formal occasions.",
+    size: "M",
+    sizetag: "10",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/29FW Royal Blue Ombre Embroidered Kurta.png",
+    images: [
+    "Images/kurti/29FW Royal Blue Ombre Embroidered Kurta.png",
+    "Images/kurti/29ZW Royal Blue Ombre Embroidered Kurta.png"
+  ]
+  },
+  {
+    id: 30,
+    name: "Classic Blue Leaf Print Kurta",
+    description: "A stylish blue kurta featuring elegant all-over leaf prints, designed with a mandarin collar and button-down neckline. Its comfortable fit and lightweight fabric make it perfect for everyday wear, office, and casual outings.",
+    size: "L",
+    sizetag: "12",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/30FW Classic Blue Leaf Print Kurta.png",
+    images: [
+    "Images/kurti/30FW Classic Blue Leaf Print Kurta.png",
+    "Images/kurti/30ZW Classic Blue Leaf Print Kurta.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
