@@ -402,6 +402,38 @@ let products = [
   ]
   },
   {
+    id: 26,
+    name: "Taupe Sheer Elegance Kurta",
+    description: "A refined taupe kurta crafted in lightweight sheer fabric, featuring subtle shimmer detailing and soft sequin accents. Designed with flowy sleeves and a graceful silhouette, perfect for elegant daywear and festive occasions.",
+    size: "4XL",
+    sizetag: "18",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/26FW Taupe Sheer Elegance Kurta.png",
+    images: [
+    "Images/kurti/26FW Taupe Sheer Elegance Kurta.png",
+    "Images/kurti/26ZW Taupe Sheer Elegance Kurta.png"
+  ]
+  },
+  {
+    id: 27,
+    name: "Beige Heritage Print Kurta",
+    description: "An elegant beige kurta featuring intricate traditional prints in soft red and blue tones. Designed with a detailed front panel and subtle all-over motifs, offering a perfect blend of comfort and timeless ethnic style for everyday wear.",
+    size: "S",
+    sizetag: "8",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/27FW Beige Heritage Print Kurta.png",
+    images: [
+    "Images/kurti/27FW Beige Heritage Print Kurta.png",
+    "Images/kurti/27ZW Beige Heritage Print Kurta.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
