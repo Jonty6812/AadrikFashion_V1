@@ -386,6 +386,22 @@ let products = [
   ]
   },
   {
+    id: 25,
+    name: "Metallic Sage Embellished Neck Kurta",
+    description: "Step into subtle glamour with this metallic sage kurta featuring a delicate all-over shimmer and a beautifully embellished neckline. Designed with a clean silhouette and soft sheen, this piece is perfect for festive occasions or elegant evening wear.",
+    size: "XL",
+    sizetag: "14",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/25FW Metallic Sage Embellished Neck Kurta.png",
+    images: [
+    "Images/kurti/25FW Metallic Sage Embellished Neck Kurta.png",
+    "Images/kurti/25ZW Metallic Sage Embellished Neck Kurta.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
