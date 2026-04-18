@@ -322,6 +322,38 @@ let products = [
   ]
   },
   {
+    id: 21,
+    name: "Bright Pink Embroidered Panel Kurta",
+    description: "Add a pop of color to your wardrobe with this bright pink kurta, featuring delicate embroidery on the yoke and subtle pleat detailing. Designed with a mandarin collar and button placket, it offers a perfect blend of comfort and effortless everyday style.",
+    size: "M",
+    sizetag: "36",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/21FRANG Bright Pink Embroidered Panel Kurta.png",
+    images: [
+    "Images/kurti/21FRANG Bright Pink Embroidered Panel Kurta.png",
+    "Images/kurti/21WRANG Bright Pink Embroidered Panel Kurta.png"
+  ]
+  },
+  {
+    id: 22,
+    name: "Sage Green Micro Print Straight Kurta",
+    description: "Keep it effortlessly elegant with this sage green kurta featuring a delicate all-over micro print. Designed with a clean round neckline and minimal placket detail, this lightweight piece offers breathable comfort and a refined look perfect for everyday wear.",
+    size: "S",
+    sizetag: "34",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/22FRANG Sage Green Micro Print Straight Kurta.png",
+    images: [
+    "Images/kurti/22FRANG Sage Green Micro Print Straight Kurta.png",
+    "Images/kurti/22WRANG Sage Green Micro Print Straight Kurta.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
