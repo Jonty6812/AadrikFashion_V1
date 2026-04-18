@@ -242,6 +242,86 @@ let products = [
   ]
   },
   {
+    id: 16,
+    name: "Indigo Striped Fusion Kurta with Contrast Panel",
+    description: "Elevate your everyday ethnic style with this elegant indigo kurta, designed with a modern fusion twist. Featuring a unique dual-pattern layout, the kurta combines vertical and horizontal stripe play for a contemporary yet traditional look. The rich blue base is enhanced with subtle woven motifs, giving it depth and character.",
+    size: "M",
+    sizetag: "M",
+    company: "AURELIA",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/16FAURE Indigo Striped Fusion Kurta with Contrast Panel.png",
+    images: [
+    "Images/kurti/16FAURE Indigo Striped Fusion Kurta with Contrast Panel.png",
+    "Images/kurti/16ZAURE Indigo Striped Fusion Kurta with Contrast Panel.png"
+  ]
+  },
+  {
+    id: 17,
+    name: "Ivory Floral Printed Straight Kurta",
+    description: "Refresh your everyday style with this ivory kurta adorned with vibrant orange floral prints and subtle grey foliage. Designed with a sleek mandarin collar and button placket, this lightweight piece offers breathable comfort and effortless elegance for daily wear or casual outings.",
+    size: "M",
+    sizetag: "M",
+    company: "NOTAG",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/17FNO Ivory Floral Printed Straight Kurta.png",
+    images: [
+    "Images/kurti/17FNO Ivory Floral Printed Straight Kurta.png",
+    "Images/kurti/17ZNO Ivory Floral Printed Straight Kurta.png"
+  ]
+  },
+  {
+    id: 18,
+    name: "Sage Grey Minimal Print Straight Kurta",
+    description: "Keep it subtle and stylish with this sage grey kurta featuring clean stripe detailing and minimal abstract floral prints. Designed with a round neckline and front button placket, this lightweight piece offers a perfect blend of comfort and modern elegance for everyday wear.",
+    size: "S",
+    sizetag: "8",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/18FW Sage Grey Minimal Print Straight Kurta.png",
+    images: [
+    "Images/kurti/18FW Sage Grey Minimal Print Straight Kurta.png",
+    "Images/kurti/18ZW Sage Grey Minimal Print Straight Kurta.png"
+  ]
+  },
+  {
+    id: 19,
+    name: "Teal to Indigo Gradient Printed Kurta",
+    description: "Make a statement with this elegant kurta featuring a beautiful teal-to-indigo gradient and intricate geometric prints. Designed with a sleek neckline and subtle front zip detail, this piece blends modern style with everyday comfort—perfect for casual outings or workwear.",
+    size: "S",
+    sizetag: "34",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/19FRANG Teal to Indigo Gradient Printed Kurta.png",
+    images: [
+    "Images/kurti/19FRANG Teal to Indigo Gradient Printed Kurta.png",
+    "Images/kurti/19ZRANG Teal to Indigo Gradient Printed Kurta.png"
+  ]
+  },
+  {
+    id: 20,
+    name: "Dusty Rose Embroidered Yoke Kurta",
+    description: "Add a touch of elegance to your everyday wardrobe with this dusty rose kurta, featuring intricate geometric embroidery on the yoke and sleeves. Designed with a tie-up neckline and soft, flowy silhouette, it offers both comfort and a stylish ethnic charm perfect for casual outings.",
+    size: "M",
+    sizetag: "10",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/20FW Dusty Rose Embroidered Yoke Kurta.png",
+    images: [
+    "Images/kurti/20FW Dusty Rose Embroidered Yoke Kurta.png",
+    "Images/kurti/20ZW Dusty Rose Embroidered Yoke Kurta.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
