@@ -354,6 +354,38 @@ let products = [
   ]
   },
   {
+    id: 23,
+    name: "Classic Black Lace Detail Kurta",
+    description: "Timeless and versatile, this classic black kurta features delicate lace detailing on the neckline and sleeves for a subtle elegant touch. Designed with a relaxed fit and breathable fabric, it’s perfect for everyday wear or effortless evening styling.",
+    size: "M",
+    sizetag: "36",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/23FRANG Classic Black Lace Detail Kurta.png",
+    images: [
+    "Images/kurti/23FRANG Classic Black Lace Detail Kurta.png",
+    "Images/kurti/23WRANG Classic Black Lace Detail Kurta.png"
+  ]
+  },
+  {
+    id: 24,
+    name: "Mint Green Embroidered Festive Kurta",
+    description: "Elevate your ethnic style with this mint green kurta featuring intricate zari-inspired embroidery on the neckline and delicate scattered motifs all over. Crafted from a lightweight, flowy fabric, it offers a graceful silhouette—perfect for festive occasions and elegant day wear.",
+    size: "L",
+    sizetag: "16",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/24FW Mint Green Embroidered Festive Kurta.png",
+    images: [
+    "Images/kurti/24FW Mint Green Embroidered Festive Kurta.png",
+    "Images/kurti/24ZW Mint Green Embroidered Festive Kurta.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
