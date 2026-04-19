@@ -662,8 +662,8 @@ let products = [
   },
   {
     id: 40,
-    name: "Beige Geometric Print Straight Kurta",
-    description: "A minimal and elegant beige kurta featuring a subtle blue geometric pattern with soft script accents. Designed with a straight hem, round neckline, and three-quarter sleeves, this lightweight piece offers a clean, modern ethnic look—perfect for everyday wear or casual outings.",
+    name: "Ruby Red Gold Grid Straight Kurta",
+    description: "A vibrant red kurta detailed with an elegant gold grid pattern and subtle traditional motifs. Crafted in a straight silhouette with a mandarin collar and three-quarter sleeves, it delivers a refined ethnic style ideal for festive and casual wear.",
     size: "S",
     sizetag: "34",
     sizedet: "Size: 85cm",
@@ -671,9 +671,10 @@ let products = [
     category: "kurti",
     price: 549,
     oldPrice: 1299,
-    image: "Images/kurti/39FW Beige Geometric Print Straight Kurta.png",
+    image: "Images/kurti/40FRANG Ruby Red Gold Grid Straight Kurta.png",
     images: [
-    "Images/kurti/39FW Beige Geometric Print Straight Kurta.png"
+    "Images/kurti/40FRANG Ruby Red Gold Grid Straight Kurta.png",
+    "Images/kurti/40ZRANG Ruby Red Gold Grid Straight Kurta.png"
   ]
   }
 ];
