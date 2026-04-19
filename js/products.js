@@ -577,59 +577,49 @@ let products = [
   },
   {
     id: 37,
-    name: "Royal Blue & Gold Embroidered Kurta",
-    description: "An elegant royal blue kurta highlighted with intricate gold embroidery on the yoke and neckline. Designed for a refined, festive look with a rich sheen and graceful silhouette.",
-    size: "M",
-    sizetag: "M",
+    name: "Rose Gold Bloom Printed Kurta",
+    description: "A graceful pink kurta adorned with delicate floral prints and subtle gold accents. Featuring an embellished neckline and detailed border, it offers a perfect blend of elegance and festive charm.",
+    size: "0",
+    sizetag: "0",
     company: "AURELIA",
     category: "kurti",
     price: 0,
     oldPrice: 0,
-    image: "Images/kurti/36FAURE Royal Blue Gold Embroidered Kurta.png",
+    image: "Images/kurti/37FAURE Rose Gold Bloom Printed Kurta.png",
     images: [
-    "Images/kurti/36FAURE Royal Blue Gold Embroidered Kurta.png",
-    "Images/kurti/36ZAURE Royal Blue Gold Embroidered Kurta.png"
+    "Images/kurti/37FAURE Rose Gold Bloom Printed Kurta.png"
   ]
   },
   {
-    id: 2,
-    name: "Cotton Kurti",
-    description: "2Stylish yellow coat for young and beautiful ladies.",
-    size: "M",
+    id: 38,
+    name: "Radiant Red Sparkle Kurta",
+    description: "A striking red kurta featuring elegant golden detailing and subtle shimmer work. Designed for festive charm and graceful style, perfect for celebrations and special occasions.",
+    size: "S",
+    sizetag: "34",
+    company: "RANGRITI",
     category: "kurti",
-    price: 999,
-    oldPrice: 999,
-    image: "Images/woman/woman-jak2.png"
-  },
-  {
-    id: 3,
-    name: "2 Pc Suit Set",
-    description: "3Stylish yellow coat for young and beautiful ladies.",
-    size: "L,XL",
-    category: "2pc",
-    price: 1299,
-    oldPrice: 1599,
-    image: "Images/man/man-jak1.png"
-  },
-  {
-    id: 4,
-    name: "Designer 2 Pc",
-    description: "4Stylish yellow coat for young and beautiful ladies.",
-    size: "XL",
-    category: "2pc",
-    price: 1499,
+    price: 0,
     oldPrice: 0,
-    image: "Images/man/man-jak2.png"
+    image: "Images/kurti/38FRANG Radiant Red Sparkle Kurta.png",
+    images: [
+    "Images/kurti/38FRANG Radiant Red Sparkle Kurta.png",
+    "Images/kurti/38ZRANG Radiant Red Sparkle Kurta.png"
+  ]
   },
   {
-    id: 5,
-    name: "Latest Kurti 2026",
-    description: "5Stylish yellow coat for young and beautiful ladies.",
-    size: "XXL,L,XS,S",
-    category: "new",
-    price: 999,
-    oldPrice: 1220,
-    image: "Images/woman/woman-jak3.png"
+    id: 39,
+    name: "Beige Geometric Print Straight Kurta",
+    description: "A minimal and elegant beige kurta featuring a subtle blue geometric pattern with soft script accents. Designed with a straight hem, round neckline, and three-quarter sleeves, this lightweight piece offers a clean, modern ethnic look—perfect for everyday wear or casual outings.",
+    size: "S",
+    sizetag: "8",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/39FW Beige Geometric Print Straight Kurta.png",
+    images: [
+    "Images/kurti/39FW Beige Geometric Print Straight Kurta.png"
+  ]
   }
 ];
 
