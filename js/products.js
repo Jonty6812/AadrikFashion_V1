@@ -11,7 +11,7 @@ let products = [
     sizedet: "Size: 95cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 499,
+    price: 549,
     oldPrice: 999,
     image: "Images/kurti/1FRANG Navy Blue Floral Panel Kurti.png",
     images: [
@@ -44,7 +44,7 @@ let products = [
     sizedet: "Size: 90cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 589,
+    price: 549,
     oldPrice: 1299,
     image: "Images/kurti/3FRANG Ivory Heritage Print Panel Kurti.png",
     images: [
@@ -61,7 +61,7 @@ let products = [
     sizedet: "Size: 90cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 439,
+    price: 549,
     oldPrice: 1099,
     image: "Images/kurti/4FRANG Olive Garden Floral Kurti.png",
     images: [
@@ -78,7 +78,7 @@ let products = [
     sizedet: "Chest=1m 8cm, Length=1m 12cm",
     company: "W",
     category: "kurti",
-    price: 599,
+    price: 549,
     oldPrice: 4599,
     image: "Images/kurti/5FW Royal Blue Buti Printed Kurti.png",
     images: [
@@ -95,7 +95,7 @@ let products = [
     sizedet: "Size: 90cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 599,
+    price: 549,
     oldPrice: 1799,
     image: "Images/kurti/6FRANG Sunset Ombre Chevron Kurti.png",
     images: [
@@ -112,7 +112,7 @@ let products = [
     sizedet: "Chest=1m 4cm, Length=1m 7cm",
     company: "W",
     category: "kurti",
-    price: 589,
+    price: 549,
     oldPrice: 1999,
     image: "Images/kurti/7FW Indigo Stripe Panel Kurti.png",
     images: [
@@ -129,7 +129,7 @@ let products = [
     sizedet: "Size: 95cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1999,
     image: "Images/kurti/8FRANG Royal Purple Zari Grid Kurti.png",
     images: [
@@ -146,7 +146,7 @@ let products = [
     sizedet: "Size: 85cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1999,
     image: "Images/kurti/9FRANG Royal Blue Embroidered Panel Kurti.png",
     images: [
@@ -163,7 +163,7 @@ let products = [
     sizedet: "Chest=1m 20cm, Length=1m 22cm",
     company: "AURELIA",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 3299,
     image: "Images/kurti/10FAURE Ruby Red Embroidered Kurti.png",
     images: [
@@ -180,7 +180,7 @@ let products = [
     sizedet: "Chest=96cm, Length=1m 10cm",
     company: "AURELIA",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1599,
     image: "Images/kurti/11FAURE Coral Pink Embroidered Festive Kurti.png",
     images: [
@@ -197,7 +197,7 @@ let products = [
     sizedet: "Size: 90cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1299,
     image: "Images/kurti/12FRANG Turquoise Gold Embroidered Straight Kurti.png",
     images: [
@@ -214,8 +214,8 @@ let products = [
     sizedet: "XXX",
     company: "W",
     category: "kurti",
-    price: 0,
-    oldPrice: 0,
+    price: 549,
+    oldprice: 549,
     image: "Images/kurti/13FW Midnight Gold Sequin Kurti.png",
     images: [
     "Images/kurti/13FW Midnight Gold Sequin Kurti.png",
@@ -231,7 +231,7 @@ let products = [
     sizedet: "Chest=96cm, Length=1m 5cm",
     company: "AURELIA",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 999,
     image: "Images/kurti/14FAURE Crimson Stripe Everyday Kurti.png",
     images: [
@@ -248,8 +248,8 @@ let products = [
     sizedet: "XXX",
     company: "W",
     category: "kurti",
-    price: 0,
-    oldPrice: 0,
+    price: 549,
+    oldprice: 549,
     image: "Images/kurti/15FW Indigo Bloom Button Kurti.png",
     images: [
     "Images/kurti/15FW Indigo Bloom Button Kurti.png",
@@ -265,7 +265,7 @@ let products = [
     sizedet: "Chest=96cm, Length=1m 5cm",
     company: "AURELIA",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1499,
     image: "Images/kurti/16FAURE Indigo Striped Fusion Kurta with Contrast Panel.png",
     images: [
@@ -282,8 +282,8 @@ let products = [
     sizedet: "XXX",
     company: "NOTAG",
     category: "kurti",
-    price: 0,
-    oldPrice: 0,
+    price: 549,
+    oldprice: 549,
     image: "Images/kurti/17FNO Ivory Floral Printed Straight Kurta.png",
     images: [
     "Images/kurti/17FNO Ivory Floral Printed Straight Kurta.png",
@@ -299,7 +299,7 @@ let products = [
     sizedet: "Chest=94cm, Length=1m 7cm",
     company: "W",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1799,
     image: "Images/kurti/18FW Sage Grey Minimal Print Straight Kurta.png",
     images: [
@@ -316,7 +316,7 @@ let products = [
     sizedet: "Size: 85cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1799,
     image: "Images/kurti/19FRANG Teal to Indigo Gradient Printed Kurta.png",
     images: [
@@ -333,7 +333,7 @@ let products = [
     sizedet: "Chest=97cm, Length=79cm",
     company: "W",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1899,
     image: "Images/kurti/20FW Dusty Rose Embroidered Yoke Kurta.png",
     images: [
@@ -350,8 +350,8 @@ let products = [
     sizedet: "XXX",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
-    oldPrice: 0,
+    price: 549,
+    oldprice: 549,
     image: "Images/kurti/21FRANG Bright Pink Embroidered Panel Kurta.png",
     images: [
     "Images/kurti/21FRANG Bright Pink Embroidered Panel Kurta.png",
@@ -367,7 +367,7 @@ let products = [
     sizedet: "Size: 85cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1299,
     image: "Images/kurti/22FRANG Sage Green Micro Print Straight Kurta.png",
     images: [
@@ -384,7 +384,7 @@ let products = [
     sizedet: "Size: 90cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1299,
     image: "Images/kurti/23FRANG Classic Black Lace Detail Kurta.png",
     images: [
@@ -401,8 +401,8 @@ let products = [
     sizedet: "XXX",
     company: "W",
     category: "kurti",
-    price: 0,
-    oldPrice: 0,
+    price: 549,
+    oldprice: 549,
     image: "Images/kurti/24FW Mint Green Embroidered Festive Kurta.png",
     images: [
     "Images/kurti/24FW Mint Green Embroidered Festive Kurta.png",
@@ -418,7 +418,7 @@ let products = [
     sizedet: "Chest=1m 5cm, Length=86cm",
     company: "W",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 5999,
     image: "Images/kurti/25FW Metallic Sage Embellished Neck Kurta.png",
     images: [
@@ -435,7 +435,7 @@ let products = [
     sizedet: "Chest=1m 24cm, Length=1m 7cm",
     company: "W",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 4599,
     image: "Images/kurti/26FW Taupe Sheer Elegance Kurta.png",
     images: [
@@ -452,7 +452,7 @@ let products = [
     sizedet: "Chest=91cm, Length=1m 7cm",
     company: "W",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1799,
     image: "Images/kurti/27FW Beige Heritage Print Kurta.png",
     images: [
@@ -469,7 +469,7 @@ let products = [
     sizedet: "Chest=96cm, Length=1m 5cm",
     company: "AURELIA",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1199,
     image: "Images/kurti/28FAURE Olive Minimal Classic Kurta.png",
     images: [
@@ -485,7 +485,7 @@ let products = [
     sizedet: "Chest=1m, Length=98cm",
     company: "W",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 4599,
     image: "Images/kurti/29FW Royal Blue Ombre Embroidered Kurta.png",
     images: [
@@ -502,8 +502,8 @@ let products = [
     sizedet: "XXX",
     company: "W",
     category: "kurti",
-    price: 0,
-    oldPrice: 0,
+    price: 549,
+    oldprice: 549,
     image: "Images/kurti/30FW Classic Blue Leaf Print Kurta.png",
     images: [
     "Images/kurti/30FW Classic Blue Leaf Print Kurta.png",
@@ -519,7 +519,7 @@ let products = [
     sizedet: "Chest=91cm, Length=1m 7cm",
     company: "W",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1599,
     image: "Images/kurti/31FW Blossom Grey Floral Kurta.png",
     images: [
@@ -536,8 +536,8 @@ let products = [
     sizedet: "XXX",
     company: "W",
     category: "kurti",
-    price: 0,
-    oldPrice: 0,
+    price: 549,
+    oldprice: 549,
     image: "Images/kurti/32FW Royal Plum Embellished Kurta.png",
     images: [
     "Images/kurti/32FW Royal Plum Embellished Kurta.png",
@@ -553,7 +553,7 @@ let products = [
     sizedet: "XXX",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1399,
     image: "Images/kurti/33FRANG White Canvas Abstract Kurta.png",
     images: [
@@ -569,7 +569,7 @@ let products = [
     sizedet: "Chest=1m 5cm, Length=74cm",
     company: "W",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 4599,
     image: "Images/kurti/34FW Royal Blue Embroidered Yoke Kurti.png",
     images: [
@@ -586,7 +586,7 @@ let products = [
     sizedet: "Size: 85cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1999,
     image: "Images/kurti/35FRANG Sunlit Gold Yellow Embroidered Kurta.png",
     images: [
@@ -603,7 +603,7 @@ let products = [
     sizedet: "Chest=96cm, Length=1m 5cm",
     company: "AURELIA",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1499,
     image: "Images/kurti/36FAURE Royal Blue Gold Embroidered Kurta.png",
     images: [
@@ -620,7 +620,7 @@ let products = [
     sizedet: "Chest=1m 23cm, Length=1m 5cm",
     company: "AURELIA",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 4299,
     image: "Images/kurti/37FAURE Rose Gold Bloom Printed Kurta.png",
     images: [
@@ -636,7 +636,7 @@ let products = [
     sizedet: "Size: 85cm",
     company: "RANGRITI",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 2199,
     image: "Images/kurti/38FRANG Radiant Red Sparkle Kurta.png",
     images: [
@@ -653,8 +653,24 @@ let products = [
     sizedet: "Chest=94cm, Length=1m 7cm",
     company: "W",
     category: "kurti",
-    price: 0,
+    price: 549,
     oldPrice: 1999,
+    image: "Images/kurti/39FW Beige Geometric Print Straight Kurta.png",
+    images: [
+    "Images/kurti/39FW Beige Geometric Print Straight Kurta.png"
+  ]
+  },
+  {
+    id: 40,
+    name: "Beige Geometric Print Straight Kurta",
+    description: "A minimal and elegant beige kurta featuring a subtle blue geometric pattern with soft script accents. Designed with a straight hem, round neckline, and three-quarter sleeves, this lightweight piece offers a clean, modern ethnic look—perfect for everyday wear or casual outings.",
+    size: "S",
+    sizetag: "34",
+    sizedet: "Size: 85cm",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 549,
+    oldPrice: 1299,
     image: "Images/kurti/39FW Beige Geometric Print Straight Kurta.png",
     images: [
     "Images/kurti/39FW Beige Geometric Print Straight Kurta.png"
