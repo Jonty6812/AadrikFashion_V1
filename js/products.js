@@ -1,6 +1,12 @@
 let currentImages = [];
 let currentIndex = 0;
 
+const companyLogos = {
+  "RANGRITI": "icon/rangriti.png",
+  "W": "icon/w.png",
+  "AURELIA": "icon/aurelia.png"
+};
+
 let products = [
   {
     id: 1,
@@ -744,15 +750,23 @@ function displayProducts(filteredProducts) {
       
       <div class="col" onclick="openProductModal(${product.id})" style="cursor:pointer;">
             <div class="card h-100 penguin-card-border shadow rounded position-relative">
-              <img
+            
+            <img 
+              src="${companyLogos[product.company] || 'icon/default.png'}"
+              class="company-logo"
+              alt="${product.company}"
+              onerror="this.onerror=null; this.src='icon/default.png';"
+            />
+            
+            <img
                 src="${product.image}"
-                class="card-img-top penguin-card-img w-75"
+                class="card-img-top penguin-card-img w-100"
                 alt="..."
               />
               <div class="card-body">
                 <h5 class="card-title">${product.name}</h5>
                 <p class="card-text">
-                  ${product.description}
+                  ${shortText(product.description)}
                 </p>
               </div>
               <div
@@ -770,6 +784,13 @@ function displayProducts(filteredProducts) {
           </div>
     `;
   });
+}
+
+function shortText(text, wordLimit = 7) {
+  const words = text.split(" ");
+  return words.length > wordLimit
+    ? words.slice(0, wordLimit).join(" ") + "..."
+    : text;
 }
 
 // Filter products
@@ -815,8 +836,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function openProductModal(id) {
   const product = products.find(p => p.id === id);
+  
+  let sizeTxt = "";
+  if(product.sizedet != "XXX"){
+    sizeTxt = " (" + product.sizedet + ")";
+  }
 
-  document.getElementById("modalTitle").innerText = product.name;
+  document.getElementById("modalTitle").innerText = product.name + sizeTxt;
   document.getElementById("modalDescription").innerText = product.description;
 
   const mainImage = document.getElementById("mainImage");

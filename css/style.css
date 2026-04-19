@@ -30,6 +30,15 @@ h1 {
   background-color: rgba(241, 241, 241, 1);
   margin: 4% auto;
 }
+
+.penguin-card-img {
+  height: 320px;
+  object-fit: contain;   /* ✅ shows full image */
+  padding: 0;
+  margin: 0;
+  background: #fff;      /* optional: clean background */           
+}
+
 .penguin-info {
   width: 60px;
   height: auto;
@@ -40,7 +49,7 @@ h1 {
 }
 .penguin-card-border,
 .penguin-card-img {
-  border-radius: 1em;
+  border-radius: 12px 12px 0 0;  /* only top rounded */
 }
 
 .penguin-card-footer,
@@ -97,16 +106,21 @@ h1 {
 .price-box {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.2;
 }
 .price-text-style {
+  font-size: 0.9rem;   /* reduce */
+  font-weight: 600;
   color: rgba(250, 190, 76, 1);
-  font-weight: bold;
 }
+
 .price-old-text-style {
+  font-size: 0.75rem;  /* reduce from 18px ❗ */
   text-decoration: line-through;
   color: #888;
-  font-size: 18px;
 }
 
 
@@ -248,4 +262,39 @@ h1 {
 
 .social-icon .fa-youtube-play:hover {
   color: #ff0000;
+}
+
+.card-title {
+  font-size: 0.9rem;   /* smaller title */
+  margin-bottom: 4px;
+}
+
+.card-text {
+  font-size: 0.75rem;    /* smaller description */
+  margin-bottom: 4px;
+  color: #666;
+}
+
+.card-body {
+  padding: 6px;        /* default is too big */
+}
+
+.card-footer {
+  padding: 5px 6px;
+  font-size: 0.85rem;
+}
+
+.size-label {
+  font-size: 0.75rem;
+}
+
+.company-logo {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  z-index: 10;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
 }
