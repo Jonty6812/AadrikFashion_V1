@@ -481,6 +481,38 @@ let products = [
   ]
   },
   {
+    id: 31,
+    name: "Blossom Grey Floral Kurta",
+    description: "A soft grey kurta featuring delicate pink floral prints with statement paisley detailing on the sleeves. Designed in a straight, comfortable fit with a minimal neckline, it’s perfect for effortless everyday elegance and casual outings.",
+    size: "M",
+    sizetag: "8",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/31FW Blossom Grey Floral Kurta.png",
+    images: [
+    "Images/kurti/31FW Blossom Grey Floral Kurta.png",
+    "Images/kurti/31ZW Blossom Grey Floral Kurta.png"
+  ]
+  },
+  {
+    id: 32,
+    name: "Royal Plum Embellished Kurta",
+    description: "A rich plum kurta crafted in a smooth, glossy fabric, featuring delicate silver floral embroidery along the neckline and sleeves. Designed with a flattering wrap-style tie detail, it adds a touch of elegance and is perfect for festive and evening wear.",
+    size: "XXL",
+    sizetag: "16",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/32FW Royal Plum Embellished Kurta.png",
+    images: [
+    "Images/kurti/32FW Royal Plum Embellished Kurta.png",
+    "Images/kurti/32ZW Royal Plum Embellished Kurta.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
