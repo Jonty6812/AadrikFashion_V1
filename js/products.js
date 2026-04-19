@@ -554,7 +554,7 @@ let products = [
     id: 33,
     name: "White Canvas Abstract Kurta",
     description: "A clean and contemporary white kurta featuring vibrant abstract prints along the hem. Designed with a mandarin collar, front buttons, and subtle sleeve detailing, it offers a perfect blend of minimal elegance and artistic flair—ideal for casual outings and statement styling.",
-    size: "XS",
+    size: "S",
     sizetag: "34",
     sizedet: "XXX",
     company: "RANGRITI",
