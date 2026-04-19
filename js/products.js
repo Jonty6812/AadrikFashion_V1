@@ -513,6 +513,85 @@ let products = [
   ]
   },
   {
+    id: 33,
+    name: "White Canvas Abstract Kurta",
+    description: "A clean and contemporary white kurta featuring vibrant abstract prints along the hem. Designed with a mandarin collar, front buttons, and subtle sleeve detailing, it offers a perfect blend of minimal elegance and artistic flair—ideal for casual outings and statement styling.",
+    size: "0",
+    sizetag: "0",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/33FRANG White Canvas Abstract Kurta.png",
+    images: [
+    "Images/kurti/33FRANG White Canvas Abstract Kurta.png"
+  ]
+  },
+  {
+    id: 34,
+    name: "Royal Blue Embroidered Yoke Kurti",
+    description: "An elegant royal blue kurti featuring intricate white embroidery on the yoke with delicate tassel detailing. Designed with a relaxed fit and subtle all-over motifs, it offers a perfect blend of comfort and ethnic charm—ideal for everyday wear and casual outings.",
+    size: "XL",
+    sizetag: "14",
+    company: "W",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/34FW Royal Blue Embroidered Yoke Kurti.png",
+    images: [
+    "Images/kurti/34FW Royal Blue Embroidered Yoke Kurti.png",
+    "Images/kurti/34ZW Royal Blue Embroidered Yoke Kurti.png"
+  ]
+  },
+  {
+    id: 35,
+    name: "Sunlit Gold & Yellow Embroidered Kurta",
+    description: "A vibrant yellow kurta featuring subtle gold motifs and an intricately embroidered neckline. Designed for a polished, festive look with a comfortable and elegant fit.",
+    size: "S",
+    sizetag: "34",
+    company: "RANGRITI",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/35FRANG Sunlit Gold Yellow Embroidered Kurta.png",
+    images: [
+    "Images/kurti/35FRANG Sunlit Gold Yellow Embroidered Kurta.png",
+    "Images/kurti/35ZRANG Sunlit Gold Yellow Embroidered Kurta.png"
+  ]
+  },
+  {
+    id: 36,
+    name: "Royal Blue & Gold Embroidered Kurta",
+    description: "An elegant royal blue kurta highlighted with intricate gold embroidery on the yoke and neckline. Designed for a refined, festive look with a rich sheen and graceful silhouette.",
+    size: "M",
+    sizetag: "M",
+    company: "AURELIA",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/36FAURE Royal Blue Gold Embroidered Kurta.png",
+    images: [
+    "Images/kurti/36FAURE Royal Blue Gold Embroidered Kurta.png",
+    "Images/kurti/36ZAURE Royal Blue Gold Embroidered Kurta.png"
+  ]
+  },
+  {
+    id: 37,
+    name: "Royal Blue & Gold Embroidered Kurta",
+    description: "An elegant royal blue kurta highlighted with intricate gold embroidery on the yoke and neckline. Designed for a refined, festive look with a rich sheen and graceful silhouette.",
+    size: "M",
+    sizetag: "M",
+    company: "AURELIA",
+    category: "kurti",
+    price: 0,
+    oldPrice: 0,
+    image: "Images/kurti/36FAURE Royal Blue Gold Embroidered Kurta.png",
+    images: [
+    "Images/kurti/36FAURE Royal Blue Gold Embroidered Kurta.png",
+    "Images/kurti/36ZAURE Royal Blue Gold Embroidered Kurta.png"
+  ]
+  },
+  {
     id: 2,
     name: "Cotton Kurti",
     description: "2Stylish yellow coat for young and beautiful ladies.",
