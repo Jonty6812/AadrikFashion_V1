@@ -839,7 +839,12 @@ function openProductModal(id) {
   
   let sizeTxt = "";
   if(product.sizedet != "XXX"){
-    sizeTxt = " (" + product.sizedet + ")";
+    if(product.company != "W"){
+      sizeTxt = " (" + product.sizedet + ")";
+    }
+    else{
+    sizeTxt = " ( Brand size: " + product.sizetag + ")";
+    }
   }
 
   document.getElementById("modalTitle").innerText = product.name + sizeTxt;
