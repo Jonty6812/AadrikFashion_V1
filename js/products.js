@@ -4,7 +4,9 @@ let currentIndex = 0;
 const companyLogos = {
   "RANGRITI": "icon/rangriti.png",
   "W": "icon/w.png",
-  "AURELIA": "icon/aurelia.png"
+  "AURELIA": "icon/aurelia.png",
+  "ROYSA": "icon/roysa.png",
+  "NOTAG": "icon/rangriti.png"
 };
 
 let products = [
@@ -255,7 +257,7 @@ let products = [
     company: "W",
     category: "kurti",
     price: 549,
-    oldprice: 549,
+    oldPrice: 549,
     image: "Images/kurti/15FW Indigo Bloom Button Kurti.png",
     images: [
     "Images/kurti/15FW Indigo Bloom Button Kurti.png",
@@ -289,7 +291,7 @@ let products = [
     company: "NOTAG",
     category: "kurti",
     price: 549,
-    oldprice: 549,
+    oldPrice: 1699,
     image: "Images/kurti/17FNO Ivory Floral Printed Straight Kurta.png",
     images: [
     "Images/kurti/17FNO Ivory Floral Printed Straight Kurta.png",
@@ -695,6 +697,24 @@ function displayProducts(filteredProducts) {
   container.innerHTML = "";
 
   if (filteredProducts.length === 0) {
+    // SHOW COMING SOON FOR 2PC
+    if (currentCategory === "2pc") {
+
+      // REMOVE GRID BEHAVIOR
+      container.classList.add("coming-soon-mode");
+
+      container.innerHTML = `
+        <div class="w-100 d-flex justify-content-center align-items-center" style="min-height:60vh;">
+          <img src="Images/coming_soon.png" 
+              style="max-width:360px; width:100%;" 
+              alt="Coming Soon">
+        </div>
+      `;
+      return;
+    } else {
+      container.classList.remove("coming-soon-mode");
+    }
+
     container.innerHTML = `
       <div class="col-12 text-center py-2">
         
@@ -843,7 +863,7 @@ function openProductModal(id) {
       sizeTxt = " (" + product.sizedet + ")";
     }
     else{
-    sizeTxt = " ( Brand size: " + product.sizetag + ")";
+      sizeTxt = " ( Brand size: " + product.sizetag + ")";
     }
   }
 
@@ -968,10 +988,20 @@ function applyFilters() {
 }
 
 function resetFilters() {
+  // uncheck all sizes
   document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
-  currentCategory = "all";
-  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-  document.querySelector(".filter-btn").classList.add("active");
 
+  // reset category
+  currentCategory = "all";
+
+  // reset active button properly
+  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+  document.querySelector(".filter-btn[onclick*='all']").classList.add("active");
+
+  // remove coming soon mode (important)
+  const container = document.getElementById("productContainer");
+  container.classList.remove("coming-soon-mode");
+
+  // reload products
   displayProducts(products);
 }
