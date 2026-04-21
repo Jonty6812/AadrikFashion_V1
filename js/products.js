@@ -223,7 +223,7 @@ let products = [
     company: "W",
     category: "kurti",
     price: 549,
-    oldprice: 549,
+    oldPrice: 4299,
     image: "Images/kurti/13FW Midnight Gold Sequin Kurti.png",
     images: [
     "Images/kurti/13FW Midnight Gold Sequin Kurti.png",
@@ -257,7 +257,7 @@ let products = [
     company: "W",
     category: "kurti",
     price: 549,
-    oldPrice: 549,
+    oldPrice: 1799,
     image: "Images/kurti/15FW Indigo Bloom Button Kurti.png",
     images: [
     "Images/kurti/15FW Indigo Bloom Button Kurti.png",
@@ -359,7 +359,7 @@ let products = [
     company: "RANGRITI",
     category: "kurti",
     price: 549,
-    oldprice: 549,
+    oldPrice: 1499,
     image: "Images/kurti/21FRANG Bright Pink Embroidered Panel Kurta.png",
     images: [
     "Images/kurti/21FRANG Bright Pink Embroidered Panel Kurta.png",
@@ -410,7 +410,7 @@ let products = [
     company: "W",
     category: "kurti",
     price: 549,
-    oldprice: 549,
+    oldPrice: 2499,
     image: "Images/kurti/24FW Mint Green Embroidered Festive Kurta.png",
     images: [
     "Images/kurti/24FW Mint Green Embroidered Festive Kurta.png",
@@ -511,7 +511,7 @@ let products = [
     company: "W",
     category: "kurti",
     price: 549,
-    oldprice: 549,
+    oldPrice: 1899,
     image: "Images/kurti/30FW Classic Blue Leaf Print Kurta.png",
     images: [
     "Images/kurti/30FW Classic Blue Leaf Print Kurta.png",
@@ -545,7 +545,7 @@ let products = [
     company: "W",
     category: "kurti",
     price: 549,
-    oldprice: 549,
+    oldPrice: 2599,
     image: "Images/kurti/32FW Royal Plum Embellished Kurta.png",
     images: [
     "Images/kurti/32FW Royal Plum Embellished Kurta.png",
