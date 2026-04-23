@@ -181,6 +181,7 @@ let products = [
   },
   {
     id: 11,
+    soldOut: true,
     name: "Coral Pink Embroidered Festive Kurti",
     description: "Graceful coral pink kurti featuring intricate multicolor embroidery with delicate sequin and zari-style detailing on the neckline. Designed with a soft paisley-inspired base pattern and elegant finish, this kurti adds a rich festive charm—perfect for celebrations, parties, and special occasions.",
     size: "M",
@@ -368,6 +369,7 @@ let products = [
   },
   {
     id: 22,
+    soldOut: true,
     name: "Sage Green Micro Print Straight Kurta",
     description: "Keep it effortlessly elegant with this sage green kurta featuring a delicate all-over micro print. Designed with a clean round neckline and minimal placket detail, this lightweight piece offers breathable comfort and a refined look perfect for everyday wear.",
     size: "M",
@@ -436,6 +438,7 @@ let products = [
   },
   {
     id: 26,
+    soldOut: true,
     name: "Taupe Sheer Elegance Kurta",
     description: "A refined taupe kurta crafted in lightweight sheer fabric, featuring subtle shimmer detailing and soft sequin accents. Designed with flowy sleeves and a graceful silhouette, perfect for elegant daywear and festive occasions.",
     size: "XXXL",
@@ -486,6 +489,7 @@ let products = [
   },
   {
     id: 29,
+    soldOut: true,
     name: "Royal Blue Ombre Embroidered Kurta",
     description: "A graceful ombre kurta blending rich royal blue into soft sea green, highlighted with intricate silver thread embroidery on the neckline. Designed with a modern silhouette and lightweight fabric, it offers a perfect balance of elegance and comfort for festive and semi-formal occasions.",
     size: "M",
@@ -771,6 +775,13 @@ function displayProducts(filteredProducts) {
       <div class="col" onclick="openProductModal(${product.id})" style="cursor:pointer;">
             <div class="card h-100 penguin-card-border shadow rounded position-relative">
             
+            <!-- SOLD OUT BADGE -->
+            ${product.soldOut ? `
+                <div class="sold-out-overlay">
+                  <img src="Images/sold_out.png" alt="Sold Out">
+                </div>
+              ` : ""}
+
             <img 
               src="${companyLogos[product.company] || 'icon/default.png'}"
               class="company-logo"
