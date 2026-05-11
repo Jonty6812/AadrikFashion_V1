@@ -6,12 +6,15 @@ const companyLogos = {
   "W": "icon/w.png",
   "AURELIA": "icon/aurelia.png",
   "ROYSA": "icon/roysa.png",
+  "SOCH": "icon/soch.png",
+  "LIBAS": "icon/libas.png",
+  "JUNIPER": "icon/juniper.png",
   "NOTAG": "icon/rangriti.png"
 };
 
 let products = [
-  ...(typeof kurtiProducts !== "undefined" ? kurtiProducts : []),
-  ...(typeof twoPcsSetProducts !== "undefined" ? twoPcsSetProducts : [])
+  ...(typeof twoPcsSetProducts !== "undefined" ? twoPcsSetProducts : []),
+  ...(typeof kurtiProducts !== "undefined" ? kurtiProducts : [])
 ];
 
 let currentCategory = "all";
@@ -193,11 +196,11 @@ function openProductModal(id) {
   
   let sizeTxt = "";
   if(product.sizedet != "XXX"){
-    if(product.company != "W"){
-      sizeTxt = " (" + product.sizedet + ")";
+    if(product.company == "W" && product.category == "kurti" ){
+      sizeTxt = " ( Brand size: " + product.sizetag + ")";
     }
     else{
-      sizeTxt = " ( Brand size: " + product.sizetag + ")";
+      sizeTxt = " (" + product.sizedet + ")";
     }
   }
 
