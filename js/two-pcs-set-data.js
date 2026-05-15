@@ -410,6 +410,7 @@ const twoPcsSetProducts = [
   },
   {
     id: 200021, //done
+    soldOut: true,
     name: "Black Cambric Floral Print Crop-Top Palazzo Set",
     description: "Elegant black palazzo set featuring intricate ethnic prints with vibrant accents. Comes with a stylish flared kurti, matching printed palazzo pants, and a soft dupatta—perfect for casual wear and festive occasions.",
     size: "XL",
